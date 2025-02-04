@@ -130,6 +130,24 @@
       border-radius: 3px;
       font-size: 0.9em;
     }
+    /* Additional styling for new sections */
+    .section {
+      margin-bottom: 30px;
+    }
+    .forecast-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    .forecast-table th,
+    .forecast-table td {
+      border: 1px solid #FFD700;
+      padding: 8px;
+      text-align: center;
+    }
+    .forecast-table th {
+      background-color: #222;
+    }
   </style>
 </head>
 <body>
@@ -137,11 +155,11 @@
     <!-- Title Section -->
     <h1>Plan de Afaceri & Structură Organizațională</h1>
     <p>
-      Acest document detaliază un plan complet de afaceri și o reprezentare modernă a structurii organizaționale pentru platforma sportivă premium. Scopul este de a atinge rapid și sustenabil creșterea numărului de abonați și de a genera venituri recurente de peste 100.000 USD pe lună.
+      Acest document detaliază un plan complet de afaceri, cu analiză financiară, forecast și informații extinse despre departamente, pentru o platformă sportivă premium. Scopul este de a atinge rapid și sustenabil creșterea numărului de abonați și de a genera venituri recurente de peste 100.000 USD pe lună.
     </p>
 
     <!-- Business Plan Section -->
-    <section id="plan-de-afaceri">
+    <section id="plan-de-afaceri" class="section">
       <h2>Plan de Afaceri Detaliat</h2>
       
       <h3>1. Rezumat Executiv</h3>
@@ -159,57 +177,57 @@
           <ul>
             <li><em>Fani și Pariori:</em> Persoane pasionate de sport și pariuri care caută un avantaj competitiv.</li>
             <li><em>Analiști de Date:</em> Profesioniști și entuziaști interesați de analize statistice aprofundate.</li>
-            <li><em>Persoane Vârstnice:</em> Pensionari și persoane în vârstă interesați de sport, interacțiuni sociale și învățare prin interfețe simplificate.</li>
+            <li><em>Persoane Vârstnice:</em> Pensionari și persoane în vârstă interesați de sport și interacțiuni sociale, folosind interfețe simplificate.</li>
             <li><em>Studenți:</em> Tineri interesați de analiza sportivă, învățare interactivă și conținut multimedia, cu opțiuni de abonament accesibile.</li>
           </ul>
         </li>
-        <li><strong>Model de Venit:</strong> Abonament lunar la 50 USD, cu posibile tarife diferențiate pentru studenți și pachete dedicate persoanelor vârstnice, plus program de afiliere cu discount de 50% pentru parteneri.</li>
+        <li><strong>Model de Venit:</strong> Abonament lunar la 50 USD, cu tarife diferențiate pentru studenți și pachete dedicate persoanelor vârstnice, plus un program de afiliere cu discount de 50% pentru parteneri.</li>
       </ul>
       
-      <h3>2. Analiza Pieței</h3>
+      <h3>2. Analiza Pieței și a Concurenței</h3>
       <ul>
         <li><strong>Segmentele Publicului Țintă:</strong>
           <ul>
-            <li><em>Fani și Pariori:</em> Utilizatori tehnici, implicați și competitivi, care au nevoie de date rapide și fiabile.</li>
-            <li><em>Analiști de Date:</em> Profesioniști și pasionați de statistică care solicită informații detaliate și instrumente avansate de vizualizare.</li>
-            <li><em>Persoane Vârstnice:</em> Utilizatori cu experiență redusă în tehnologie, care cer interfețe simple și suport comunitar.</li>
-            <li><em>Studenți:</em> Tineri, nativi digitali, care caută opțiuni de abonament accesibile, conținut educațional și experiențe interactive.</li>
+            <li><em>Fani și Pariori:</em> Utilizatori tehnici, implicați și competitivi, ce solicită date rapide și fiabile.</li>
+            <li><em>Analiști de Date:</em> Profesioniști și entuziaști interesați de instrumente avansate de vizualizare a datelor.</li>
+            <li><em>Persoane Vârstnice:</em> Utilizatori cu experiență redusă în tehnologie, ce cer interfețe simple și suport dedicat.</li>
+            <li><em>Studenți:</em> Tineri, nativi digitali, interesați de conținut educațional și opțiuni de abonament accesibile.</li>
           </ul>
         </li>
         <li><strong>Tendințe și Oportunități:</strong>
           <ul>
             <li>Cerere tot mai mare pentru date în timp real și analize predictive în sport și pariuri.</li>
             <li>Creșterea implicării în comunități online și rețele sociale.</li>
-            <li>Interese în design inclusiv și interfețe adaptate tuturor categoriilor de vârstă.</li>
+            <li>Necesitatea de interfețe accesibile, adaptate diverselor segmente demografice.</li>
             <li>Oportunități de parteneriate educaționale și colaborări cu instituții academice.</li>
           </ul>
         </li>
         <li><strong>Analiza Concurențială:</strong>
           <ul>
-            <li>Platforme concurente de statistici sportive; avantajul nostru constă în calitatea datelor, interacțiunea comunitară și conținutul personalizat pentru segmente diverse.</li>
+            <li>Platforme concurente de statistici sportive, diferența noastră fiind calitatea datelor, interacțiunea comunitară și personalizarea conținutului.</li>
           </ul>
         </li>
       </ul>
       
-      <h3>3. Strategie de Produs & Tehnologie</h3>
+      <h3>3. Strategie de Produs, Tehnologie și Inovație</h3>
       <ul>
         <li><strong>Dezvoltarea Platformei:</strong>
           <ul>
-            <li>Aplicații mobile și web intuitive, dezvoltate cu principii "mobile-first".</li>
-            <li>Funcționalități: statistici live și pre-meci, chat, flux de știri și integrare live stream.</li>
-            <li>Interfețe adaptate: mod avansat pentru analiști și pariori, mod simplificat pentru persoanele vârstnice și mod educațional pentru studenți (tutoriale interactive, module gamificate).</li>
+            <li>Aplicații mobile și web dezvoltate cu abordare "mobile-first" și design responsive.</li>
+            <li>Funcționalități: statistici live și pre-meci, chat în timp real, flux de știri, integrare live stream și instrumente de analiză.</li>
+            <li>Interfețe multiple: modul avansat pentru analiști/pariori, modul simplificat pentru utilizatorii mai puțin tehnici și un modul educațional pentru studenți (tutoriale și module interactive).</li>
           </ul>
         </li>
         <li><strong>Infrastructura de Date & Analiză:</strong>
           <ul>
-            <li>Soluții cloud pentru procesare și stocare în timp real a datelor.</li>
-            <li>Integrare AI și machine learning pentru analize predictive și personalizare.</li>
-            <li>Dashboard-uri interactive și instrumente de vizualizare a datelor.</li>
+            <li>Soluții cloud scalabile pentru procesare și stocare în timp real.</li>
+            <li>Integrarea AI și machine learning pentru analize predictive și personalizarea experienței.</li>
+            <li>Dashboard-uri interactive și instrumente de vizualizare a datelor, cu suport pentru big data.</li>
           </ul>
         </li>
         <li><strong>Experiență Utilizator & Accesibilitate:</strong>
           <ul>
-            <li>Design adaptat pentru diverse segmente: moduri avansat, simplificat și educațional.</li>
+            <li>Design intuitiv, testat pe diverse platforme, și interfețe adaptate pentru toate categoriile de vârstă.</li>
             <li>Respectarea standardelor de accesibilitate (WCAG) pentru o experiență optimă.</li>
           </ul>
         </li>
@@ -219,22 +237,22 @@
       <ul>
         <li><strong>Branding & Poziționare:</strong>
           <ul>
-            <li>Brand premium, dar inclusiv – o platformă care oferă date de top și o comunitate vibrantă, accesibilă tuturor categoriilor de utilizatori.</li>
-            <li>Identitate vizuală sofisticată, cu elemente aurii, dar calde și primitoare.</li>
+            <li>Crearea unui brand premium, dar accesibil, care evidențiază calitatea datelor și comunitatea vibrantă.</li>
+            <li>Identitate vizuală sofisticată, cu accente aurii și elemente calde, care să inspire încredere.</li>
           </ul>
         </li>
         <li><strong>Strategie Digitală:</strong>
           <ul>
-            <li><em>Content Marketing:</em> Articole de blog, analize, tutoriale, interviuri cu experți și webinarii, segmentate pentru fiecare public țintă.</li>
-            <li><em>Campanii Social Media:</em> Prezență pe Facebook, Instagram, TikTok și LinkedIn – mesaje dedicate pentru fani, persoane vârstnice (conținut simplificat) și studenți (provocări interactive, educație în analiza sportivă).</li>
-            <li><em>Marketing prin Influenceri & Afiliere:</em> Colaborări cu influenceri sportivi, foști atleți, analiști renumiți și bloggeri; program de afiliere cu discount de 50% pentru a stimula recomandările.</li>
+            <li><em>Content Marketing:</em> Publicarea constantă de articole, analize, interviuri și webinarii, adaptate pentru fiecare segment țintă.</li>
+            <li><em>Campanii Social Media:</em> Prezență intensă pe Facebook, Instagram, TikTok și LinkedIn, cu mesaje dedicate specific fiecărui public.</li>
+            <li><em>Marketing prin Influenceri & Afiliere:</em> Colaborări cu sportivi, analiști și bloggeri de renume, susținute de un program de afiliere atractiv (reduceri de 50%).</li>
           </ul>
         </li>
         <li><strong>Strategii Offline & Parteneriate:</strong>
           <ul>
-            <li>Parteneriate educaționale: colaborări cu universități, colegii și academii sportive – proiecte de cercetare, stagii și reduceri pentru studenți.</li>
-            <li>Implicare în comunitate: evenimente locale, webinarii și ateliere pentru a introduce platforma persoanelor vârstnice și pentru a stimula interacțiunea.</li>
-            <li>Parteneriate corporative: colaborări cu cluburi sportive și companii de pariuri pentru campanii promoționale și distribuirea de conținut exclusiv.</li>
+            <li>Parteneriate cu instituții educaționale (universități, colegii) și academii sportive pentru evenimente și reduceri dedicate.</li>
+            <li>Evenimente locale, ateliere și webinarii pentru a stimula implicarea comunității.</li>
+            <li>Colaborări cu cluburi sportive și companii de pariuri pentru campanii promoționale și conținut exclusiv.</li>
           </ul>
         </li>
         <li><strong>Strategia de Preț & Vânzări:</strong>
@@ -243,62 +261,118 @@
               <ul>
                 <li>Standard: 50 USD/lună pentru acces complet.</li>
                 <li>Discount pentru studenți: 30 USD/lună (cu verificare academică).</li>
-                <li>Pachet pentru seniori: pachet simplificat cu suport dedicat.</li>
+                <li>Pachet pentru seniori: opțiune simplificată cu suport dedicat.</li>
               </ul>
             </li>
-            <li>Strategii de conversie și retenție: trial gratuit, oferte introductive, programe de loialitate, recompense pentru recomandări și sondaje de feedback.</li>
+            <li>Strategii de conversie și retenție: perioadă de trial gratuit, oferte introductive, programe de loialitate și bonusuri pentru recomandări.</li>
           </ul>
         </li>
       </ul>
       
-      <h3>5. Plan Operațional</h3>
+      <h3>5. Plan Operațional și Structura Departamentală</h3>
       <ul>
         <li><strong>Structura Organizațională:</strong>
           <ul>
-            <li><em>Conducere:</em> CEO / Fondator, CTO, CMO / Director de Marketing, COO/CFO, Director de Conținut.</li>
-            <li><em>Departamente:</em>
+            <li><em>Conducere:</em> CEO / Fondator, CTO, CMO / Director de Marketing, COO/CFO și Director de Conținut.</li>
+            <li><em>Departamente Extinse:</em>
               <ul>
-                <li><strong>Departamentul Tehnologic:</strong> Lead Software Developer, Mobile & Web Developers, Quality Assurance Engineer, DevOps Engineer / IT Support Specialist.</li>
-                <li><strong>Departamentul de Marketing & Vânzări:</strong> Marketing Manager, Social Media Specialist, Affiliate and Sales Manager.</li>
-                <li><strong>Departamentul de Conținut:</strong> Content Manager, Content Writer / Jurnalist (x2), Video Producer / Video Editor.</li>
-                <li><strong>Departamentul Financiar & Operațional:</strong> Finance Manager, Administrative & HR Manager, Operations Manager, Live Streaming Technician.</li>
+                <li><strong>Departamentul Tehnologic:</strong>
+                  <ul>
+                    <li>Lead Software Developer</li>
+                    <li>Mobile & Web Developers</li>
+                    <li>Quality Assurance Engineer</li>
+                    <li>DevOps Engineer / IT Support Specialist</li>
+                    <li>Specialist în securitate cibernetică (nou!)</li>
+                  </ul>
+                </li>
+                <li><strong>Departamentul de Marketing & Vânzări:</strong>
+                  <ul>
+                    <li>Marketing Manager</li>
+                    <li>Social Media Specialist</li>
+                    <li>Affiliate and Sales Manager</li>
+                    <li>Specialist SEO și Content Strategist (nou!)</li>
+                  </ul>
+                </li>
+                <li><strong>Departamentul de Conținut:</strong>
+                  <ul>
+                    <li>Content Manager</li>
+                    <li>Content Writer / Jurnalist (x2)</li>
+                    <li>Video Producer / Video Editor</li>
+                    <li>Editor Multimedia și Manager de Podcast (nou!)</li>
+                  </ul>
+                </li>
+                <li><strong>Departamentul Financiar & Operațional:</strong>
+                  <ul>
+                    <li>Finance Manager</li>
+                    <li>Administrative & HR Manager</li>
+                    <li>Operations Manager</li>
+                    <li>Live Streaming Technician</li>
+                    <li>Analist Financiar (nou!)</li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
         </li>
         <li><strong>Activități Cheie Operaționale:</strong>
           <ul>
-            <li>Metodologie Agile: întâlniri zilnice, sprinturi săptămânale și bucle de feedback interdepartamentale.</li>
-            <li>Monitorizarea Performanței: KPI-uri (creșterea abonaților, rata de churn, engagement, ROI din marketing) și revizuiri periodice.</li>
-            <li>Suport Clienți & Management Comunitar: canale 24/7 (chatbot, e-mail, hotline) și manageri dedicați pentru moderare.</li>
+            <li>Implementarea metodologiei Agile: întâlniri zilnice, sprinturi săptămânale și bucle de feedback interdepartamentale.</li>
+            <li>Monitorizarea performanțelor prin KPI-uri (creșterea abonaților, rata de churn, engagement, ROI din marketing) și evaluări periodice.</li>
+            <li>Suport clienți și management comunitar 24/7 (chatbot, e-mail, hotline), cu echipă dedicată pentru moderare.</li>
           </ul>
         </li>
       </ul>
       
-      <h3>6. Proiecții Financiare & Etape Cheie</h3>
-      <ul>
-        <li><strong>Obiective de Venit:</strong>
-          <ul>
-            <li>Pe termen scurt: 500 abonați în primele 3 luni.</li>
-            <li>Pe termen mediu: Peste 2.000 abonați în 12 luni, generând un venit lunar de peste 100.000 USD.</li>
-            <li>Pe termen lung: Extinderea modelelor de abonament, creșterea parteneriatelor și oportunități B2B.</li>
-          </ul>
-        </li>
-        <li><strong>Etape Cheie:</strong>
-          <ul>
-            <li><em>Luni 1-3:</em> Lansarea MVP, campanii inițiale, oferte speciale pentru studenți și persoane vârstnice; colectarea feedback-ului și optimizarea platformei.</li>
-            <li><em>Luni 4-6:</em> Lansarea funcționalităților avansate (analize predictive, moduri multiple, module educaționale), extinderea campaniilor digitale și parteneriate cu influenceri.</li>
-            <li><em>Luni 7-12:</em> Evaluarea performanței, extinderea conținutului, optimizarea operațională, consolidarea parteneriatelor și explorarea piețelor internaționale.</li>
-          </ul>
-        </li>
-        <li><strong>Investiții & Finanțare:</strong>
-          <ul>
-            <li>Alocarea bugetului pentru dezvoltare tehnologică, marketing și recrutarea de talente.</li>
-            <li>Posibilă atragere de finanțare seed sau capital de risc pentru accelerarea creșterii.</li>
-            <li>Focus pe canale de marketing cu ROI ridicat și procese operaționale eficiente, reinvestind constant în produs și experiența utilizatorului.</li>
-          </ul>
-        </li>
-      </ul>
+      <h3>6. Analiza Financiară, Forecast și Proiecții</h3>
+      <p>
+        <strong>Analiza Financiară:</strong> Proiectul se bazează pe o investiție inițială destinată dezvoltării tehnologiei, marketingului și extinderii echipei. Bugetul alocat este revizuit lunar, urmărind un ROI de cel puțin 150% în primii 12-18 luni.
+      </p>
+      <p>
+        <strong>Forecast Financiar (3 ani):</strong>
+      </p>
+      <table class="forecast-table">
+        <thead>
+          <tr>
+            <th>Anul</th>
+            <th>Abonați Proiectați</th>
+            <th>Venit Lunar (USD)</th>
+            <th>Cheltuieli Estimative (USD)</th>
+            <th>Profit Net (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>500 - 2.000</td>
+            <td>25.000 - 100.000</td>
+            <td>15.000 - 60.000</td>
+            <td>10.000 - 40.000</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2.000 - 5.000</td>
+            <td>100.000 - 250.000</td>
+            <td>60.000 - 150.000</td>
+            <td>40.000 - 100.000</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>5.000+</td>
+            <td>250.000+</td>
+            <td>150.000+</td>
+            <td>100.000+</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        <strong>Etape Cheie Financiare:</strong>
+        <ul>
+          <li>Primele 3 luni: Lansarea MVP-ului și validarea pieței prin feedback-ul utilizatorilor.</li>
+          <li>3-6 luni: Creșterea investițiilor în marketing digital și parteneriate strategice pentru a accelera creșterea abonaților.</li>
+          <li>6-12 luni: Optimizarea operațională și extinderea ofertei funcționale pentru a susține o rată de retenție ridicată și venituri recurente.</li>
+          <li>Anul 2-3: Diversificarea surselor de venit (B2B, publicitate, conținut sponsorizat) și extinderea pe piețe internaționale.</li>
+        </ul>
+      </p>
       
       <h3>7. Managementul Riscurilor & Planuri de Contingență</h3>
       <ul>
@@ -306,28 +380,28 @@
           <ul>
             <li>Concurența intensă pe piața platformelor de statistici sportive.</li>
             <li>Provocări tehnologice în perioade de trafic intens sau live stream-uri.</li>
-            <li>Adoptarea tehnologiei de către persoanele vârstnice sau studenții cu bugete restrânse.</li>
+            <li>Adoptarea tehnologiei de către anumite segmente (persoane vârstnice sau studenți cu bugete restrânse).</li>
           </ul>
         </li>
         <li><strong>Strategii de Mitigare:</strong>
           <ul>
-            <li>Inovare continuă: îmbunătățirea constantă a datelor și a experienței utilizatorului, dezvoltarea de funcții unice și interactive.</li>
-            <li>Infrastructură robustă: soluții cloud scalabile, monitorizare proactivă și actualizări regulate pentru a preveni downtime-ul.</li>
-            <li>Onboarding dedicat: interfețe prietenoase, tutoriale ghidate și suport special pentru utilizatorii neexperimentați, cu oferte tarifare speciale pentru studenți și seniori.</li>
+            <li>Inovare continuă și actualizări regulate pentru îmbunătățirea experienței utilizatorului.</li>
+            <li>Investiții în infrastructură robustă (soluții cloud scalabile și monitorizare proactivă) pentru a preveni downtime-ul.</li>
+            <li>Onboarding dedicat, cu tutoriale și suport personalizat pentru segmentele mai puțin tehnice.</li>
           </ul>
         </li>
       </ul>
       
       <h3>8. Concluzie & Următorii Pași</h3>
       <p>
-        Acest plan de afaceri detaliat prezintă o strategie clară pentru creștere rapidă și sustenabilă, adresând un public divers: fani și pariori, analiști de date, persoane vârstnice și studenți. Platforma se poziționează ca lider în furnizarea de statistici sportive premium și servicii interactive prin tehnologii avansate, strategii de marketing bine definite și o structură organizațională solidă.
+        Planul de afaceri prezentat oferă o strategie clară și detaliată pentru creștere, adresându-se unui public divers și integrând cele mai noi tehnologii pentru o experiență premium. Implementarea unui model financiar robust, alături de un forecast realist, asigură sustenabilitatea și scalabilitatea proiectului.
       </p>
       <p>
         <strong>Următorii Pași:</strong>
-        <br>1. Finalizarea MVP-ului și testarea platformei cu utilizatori din toate segmentele țintă.
-        <br>2. Lansarea și promovarea intensă prin canale digitale și evenimente locale, folosind parteneriate strategice.
-        <br>3. Monitorizarea constantă și optimizarea platformei pe baza feedback-ului și datelor de performanță.
-        <br>4. Scalarea echipei și extinderea ofertei de conținut, explorând noi piețe și parteneriate.
+        <br>1. Finalizarea și testarea MVP-ului cu un grup pilot diversificat.
+        <br>2. Lansarea oficială a platformei și intensificarea campaniilor de marketing.
+        <br>3. Monitorizarea continuă a performanței și optimizarea produsului pe baza feedback-ului.
+        <br>4. Extinderea echipei și explorarea oportunităților de parteneriat, atât pe plan local, cât și internațional.
       </p>
       <p>
         Pentru detalii suplimentare sau oportunități de colaborare, vă rugăm să ne contactați la <a href="mailto:contact@domeniultau.com">contact@domeniultau.com</a>.
@@ -335,7 +409,7 @@
     </section>
 
     <!-- Organizational Chart Section -->
-    <section id="structura-organizationala">
+    <section id="structura-organizationala" class="section">
       <h2>Structura Organizațională</h2>
       <div class="org-chart">
         <!-- Root Node -->
@@ -351,6 +425,7 @@
               <div class="node">Web Developer</div>
               <div class="node">QA Engineer</div>
               <div class="node">DevOps/IT Support Specialist</div>
+              <div class="node">Specialist Securitate Cibernetică</div>
             </div>
           </div>
           <!-- Branch 2: CMO -->
@@ -360,6 +435,7 @@
               <div class="node">Marketing Manager</div>
               <div class="node">Social Media Specialist</div>
               <div class="node">Affiliate and Sales Manager</div>
+              <div class="node">SEO & Content Strategist</div>
             </div>
           </div>
           <!-- Branch 3: COO/CFO -->
@@ -370,6 +446,7 @@
               <div class="node">Administrative & HR Manager</div>
               <div class="node">Operations Manager</div>
               <div class="node">Live Streaming Technician</div>
+              <div class="node">Analist Financiar</div>
             </div>
           </div>
           <!-- Branch 4: Director de Conținut -->
@@ -379,6 +456,7 @@
               <div class="node">Content Manager</div>
               <div class="node">Content Writer / Journalist (x2)</div>
               <div class="node">Video Producer / Video Editor</div>
+              <div class="node">Editor Multimedia & Manager de Podcast</div>
             </div>
           </div>
         </div>
@@ -386,7 +464,7 @@
     </section>
 
     <!-- Weekly Schedule Section -->
-    <section id="program-saptamanal">
+    <section id="program-saptamanal" class="section">
       <h2>Program Săptămânal (Luni – Vineri)</h2>
       <pre>
 08:00 – 09:00  | Întâlnire Standup (toată echipa)
